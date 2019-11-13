@@ -82,7 +82,7 @@ This insertion function cannot be combined with Pre and Post insertions, the res
 - `Node *top`: pointer to the first element of the list
 - `int x`: value to insert in the node
 
-![orderInsert](https://github.com/Leyxargon/c-linked-list/blob/master/figures/postInsert.png "orderInsert()")
+![orderInsert](https://github.com/Leyxargon/c-linked-list/blob/master/figures/orderInsert.png "orderInsert()")
 
 ## Managing operations
 
