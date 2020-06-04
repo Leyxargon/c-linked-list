@@ -36,6 +36,7 @@ Node *orderInsert(Node *top, int x) {
 	}
 	else
 		top -> next = orderInsert(top -> next, x);	/* "scrolls" the list, examining the next node */
+	return top;
 }
 
 Node *postInsert(Node *top, int x) {
@@ -43,6 +44,7 @@ Node *postInsert(Node *top, int x) {
 		return newNode(x);							/* inserts the item at the bottom of the list */
 	else
 		top -> next = postInsert(top -> next, x);	/* if it is not at the bottom, move on */
+	return top;
 }
 
 Node *findNode(Node *top, int k) {
